@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'iOS-PodsLibOne_Example' do
+  pod 'iOS-PodsLibOne', :path => '../'
+
+  target 'iOS-PodsLibOne_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
