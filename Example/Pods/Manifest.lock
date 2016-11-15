@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.5)
+  - iOS-PodsLibOne (0.1.0)
+  - Specta (1.0.5)
+
+DEPENDENCIES:
+  - Expecta
+  - iOS-PodsLibOne (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  iOS-PodsLibOne:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  iOS-PodsLibOne: ba62880e4e3b855c07305900684897aedb93de14
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+
+PODFILE CHECKSUM: f625d7206de34f742a60f3dfa95761db08f1b3c3
+
+COCOAPODS: 1.0.0

@@ -9,9 +9,18 @@
 @import UIKit;
 #import "PodsOneAppDelegate.h"
 
+#import <iOS_PodsLibOne/PodsOneLibUtil.h>
+
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
+        
+        //test
+        PodsOneLibUtil *util = [[PodsOneLibUtil alloc] init];
+        
+        [util test];
+        [util sayHello:@"kid"];
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([PodsOneAppDelegate class]));
     }
 }

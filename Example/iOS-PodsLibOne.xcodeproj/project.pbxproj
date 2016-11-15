@@ -37,9 +37,9 @@
 
 /* Begin PBXFileReference section */
 		115D21F02EF834C86787C2EE /* Pods_iOS_PodsLibOne_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_PodsLibOne_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		154EC53E6DCC8DDAF980125A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		154EC53E6DCC8DDAF980125A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1CB9BB1A3BEF977312E1BDCE /* Pods-iOS-PodsLibOne_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PodsLibOne_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PodsLibOne_Example/Pods-iOS-PodsLibOne_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2027FB4297D939B884286F6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2027FB4297D939B884286F6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3C5824C09420092E7C4C2EF3 /* Pods-iOS-PodsLibOne_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PodsLibOne_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PodsLibOne_Example/Pods-iOS-PodsLibOne_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* iOS-PodsLibOne_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-PodsLibOne_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61585927D8E7A8A973ACECE9 /* Pods-iOS-PodsLibOne_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PodsLibOne_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PodsLibOne_Tests/Pods-iOS-PodsLibOne_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		A4D75F9F1122FB7E1E65A5AE /* iOS-PodsLibOne.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "iOS-PodsLibOne.podspec"; path = "../iOS-PodsLibOne.podspec"; sourceTree = "<group>"; };
+		A4D75F9F1122FB7E1E65A5AE /* iOS-PodsLibOne.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "iOS-PodsLibOne.podspec"; path = "../iOS-PodsLibOne.podspec"; sourceTree = "<group>"; };
 		BAF9EDF5426C4EBEADDB1CF4 /* Pods_iOS_PodsLibOne_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_PodsLibOne_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F983AFC39E0D14C70897BD84 /* Pods-iOS-PodsLibOne_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PodsLibOne_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PodsLibOne_Tests/Pods-iOS-PodsLibOne_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhujigao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = NXJ4UY7738;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = NXJ4UY7738;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS-PodsLibOne/iOS-PodsLibOne-Prefix.pch";
 				INFOPLIST_FILE = "iOS-PodsLibOne/iOS-PodsLibOne-Info.plist";
@@ -529,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = NXJ4UY7738;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS-PodsLibOne/iOS-PodsLibOne-Prefix.pch";
 				INFOPLIST_FILE = "iOS-PodsLibOne/iOS-PodsLibOne-Info.plist";

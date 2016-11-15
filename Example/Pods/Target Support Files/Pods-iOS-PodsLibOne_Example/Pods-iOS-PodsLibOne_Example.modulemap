@@ -1,0 +1,6 @@
+framework module Pods_iOS_PodsLibOne_Example {
+  umbrella header "Pods-iOS-PodsLibOne_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
